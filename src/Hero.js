@@ -126,14 +126,14 @@ const Hero = () => {
       {/* right container */}
       <div className="relative">
         {/* img container */}
-        <div className="z-50">
+        <div className="">
           <img
             src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlQSbjAq17s9_E9h2CvnO240TbWyXF1_0YMTIrzw9TEZ7qBU1K"
             className="rounded-full w-[23rem] h-[24rem]"
           />
         </div>
         {/* card */}
-        <div className="bg-[orange] w-[14rem] h-[14rem] ml-9 mt-5 absolute top-[22rem]">
+        <div className="bg-[orange] w-[14rem] h-[14rem] ml-9 mt-5 absolute top-[23rem] right-[75px] rounded-xl">
           <div className="">
             <div className="flex p-10 gap-8">
               <p className="text-2xl text-[white] font-bold ">Salad</p>
@@ -150,7 +150,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* card section */}
+        {/* card section end */}
       </div>
     </div>
   );
